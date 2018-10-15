@@ -41,6 +41,10 @@ Note: there are some bugs in the entrogram parameters as of 10/15/18.
 - Increase window in X only is intended to limit the window expansion to the x-direction only.
 - Increase window in Y only is intended to limit the window expansion to the y-direction only.
               
-              
+----------------------------------------------------------------------------------------------------------------------------------------
+
+2 test cases are included to try GUI functionality and see how these statistics work
+- test.mat contains a more variable field which will have a shorter correlation length in the variogram and in the entrogram the window size at which the local and global entropies are equivalent will be smaller
+- test2.mat in comparison is a less variable field and will take longer to reach the 'sill' in both the variogram and entrogram cases
               
               
