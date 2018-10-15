@@ -27,8 +27,8 @@ Parameters:
 - X dim. (m) specifies the dimension of each cell in the x-direction in meters (units can really be anything)
 - Y dim. (m) specifies the dimension in the y-direction for each cell
               
-- # pts. X identifies the number of points to be used for the variogram calculation in the x-direction; for large fields      using every data point creates excessively high computational times.
-- # pts. Y identifies the number of points to be used for the variogram calculation in the y-direction; for large fields      using every data point creates excessively high computational times.
+- /# pts. X identifies the number of points to be used for the variogram calculation in the x-direction; for large fields      using every data point creates excessively high computational times.
+- /# pts. Y identifies the number of points to be used for the variogram calculation in the y-direction; for large fields      using every data point creates excessively high computational times.
               
 - Distances in X Only restricts the computation of the variogram to distances in the x-dimension only, can be used when there are large scale disparities or there is an interest in looking at directionality of the spatial variance in the field. 
 - Distances in Y Only restrictes the computation of the variogram to distances in the y-dimension only.
